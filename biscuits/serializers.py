@@ -4,4 +4,4 @@ from rest_framework import serializers
 class BiscuitStockSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = BiscuitStock
-        fields = ["name","price","quantity"]
+        fields = ["id","name","price","quantity"]
