@@ -4,4 +4,4 @@ from rest_framework import serializers
 class CakeStockSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = CakeStock
-        fields = ["name","quantity","price"]
+        fields = ["id","name","quantity","price"]
